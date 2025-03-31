@@ -20,36 +20,41 @@ export default function TabTwoScreen() {
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">PEÇAS FORJADAS </ThemedText>
+        <ThemedText type="title">MÓDULOS COM PROBLEMAS </ThemedText>
       </ThemedView>
-      <ThemedText>This app includes example code to help you get started.</ThemedText>
-      <Collapsible title="File-based routing">
+      <ThemedText>PEÇAS FORJADAS E FERRAMENTAS PARA MONTAGEM</ThemedText>
+      <Collapsible title="O QUE SÃO PEÇAS FORJADAS">
         <ThemedText>
-          This app has two screens:{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">app/(tabs)/explore.tsx</ThemedText>
+        Peças forjadas em motores automotivos são componentes feitos por forjamento, o que as torna mais resistentes e duráveis, como pistões, bielas e virabrequins.{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
         <ThemedText>
-          The layout file in <ThemedText type="defaultSemiBold">app/(tabs)/_layout.tsx</ThemedText>{' '}
-          sets up the tab navigator.
+           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/router/introduction">
-          <ThemedText type="link">Learn more</ThemedText>
+        <ExternalLink href="https://www.fbmforjaria.com.br/pecas-forjadas.html">
+          <ThemedText type="link">saiba mais</ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Android, iOS, and web support">
+      <Collapsible title="USABILIDADE">
         <ThemedText>
-          You can open this project on Android, iOS, and the web. To open the web version, press{' '}
-          <ThemedText type="defaultSemiBold">w</ThemedText> in the terminal running this project.
+        Peças forjadas são usadas em motores de alto desempenho, como em carros 
+
+
+{' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+          esportivos, de competição e em veículos que exigem maior resistência, como em altas rotações e
+           temperaturas. Elas oferecem maior durabilidade, resistência a desgaste e melhor desempenho.
         </ThemedText>
       </Collapsible>
-      <Collapsible title="Images">
+      <Collapsible title="BIELAS FORJADAS">
         <ThemedText>
           For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
           <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
           different screen densities
         </ThemedText>
-        <Image source={require('@/assets/images/react-logo.png')} style={{ alignSelf: 'center' }} />
+        <Image source={require('@/assets/images/bielaforjada.jpeg')} style={{ alignSelf: 'center' }} />
         <ExternalLink href="https://reactnative.dev/docs/images">
           <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
