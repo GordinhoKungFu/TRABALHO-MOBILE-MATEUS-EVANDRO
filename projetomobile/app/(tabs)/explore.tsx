@@ -12,20 +12,19 @@ export default function TabTwoScreen() {
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#D0D0D0', dark: '#353636' }}
       headerImage={
-        <IconSymbol
-          size={310}
-          color="#808080"
-          name="chevron.left.forwardslash.chevron.right"
-          style={styles.headerImage}
+        <Image
+          source={require('@/assets/images/motor2.jpg')}
+          style={styles.reactLogo}
         />
       }>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">MÓDULOS COM PROBLEMAS </ThemedText>
+        <ThemedText type="title">PEÇAS DE MOTORES</ThemedText>
       </ThemedView>
-      <ThemedText>PEÇAS FORJADAS E FERRAMENTAS PARA MONTAGEM</ThemedText>
-      <Collapsible title="O QUE SÃO PEÇAS FORJADAS">
+      <ThemedText>teteuzinho</ThemedText>
+      <Collapsible title="O QUE SÃO PEÇAS DE MOTORES">
         <ThemedText>
-        Peças forjadas em motores automotivos são componentes feitos por forjamento, o que as torna mais resistentes e duráveis, como pistões, bielas e virabrequins.{' '}
+        Peças de motores automotivos são componentes essenciais que todas precisam estar de acordo para ter
+        um funcionamento correto{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
@@ -33,19 +32,40 @@ export default function TabTwoScreen() {
            <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           
         </ThemedText>
-        <ExternalLink href="https://www.fbmforjaria.com.br/pecas-forjadas.html">
+        <ExternalLink href="https://autopapo.com.br/noticia/10-pecas-mais-importantes-motor/">
           <ThemedText type="link">saiba mais</ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="USABILIDADE">
+      <Collapsible title="COMPONENTES ESSENCIAIS">
         <ThemedText>
-        Peças forjadas são usadas em motores de alto desempenho, como em carros 
-
-
-{' '}
+          -BLOCO DE MOTOR
+           {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
-          esportivos, de competição e em veículos que exigem maior resistência, como em altas rotações e
-           temperaturas. Elas oferecem maior durabilidade, resistência a desgaste e melhor desempenho.
+          
+        </ThemedText>
+        <ThemedText>
+          -CABEÇOTE {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+        </ThemedText>
+        <ThemedText>
+          -PISTÃO {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+        </ThemedText>
+        <ThemedText>
+          -CABEÇOTE {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+        </ThemedText>
+        <ThemedText>
+          -VIRABREQUIM {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+        </ThemedText>
+        <ThemedText>
+          -COMANDO DE VÁLVULAS {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+        </ThemedText>
+        <ThemedText>
+          entre outros {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
       <Collapsible title="BIELAS FORJADAS">
@@ -110,5 +130,12 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',
     gap: 8,
+  },
+  reactLogo: {
+    height: 249,
+    width: 398,
+    bottom: 0,
+    left: 0,
+    position: 'absolute',
   },
 });
