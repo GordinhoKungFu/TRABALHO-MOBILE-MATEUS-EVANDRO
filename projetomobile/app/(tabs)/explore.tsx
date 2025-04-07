@@ -51,10 +51,7 @@ export default function TabTwoScreen() {
           -PISTÃO {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
-        <ThemedText>
-          -CABEÇOTE {' '}
-          <ThemedText type="defaultSemiBold"></ThemedText>
-        </ThemedText>
+
         <ThemedText>
           -VIRABREQUIM {' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
@@ -68,25 +65,26 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
-      <Collapsible title="BIELAS FORJADAS">
+      <Collapsible title="FOTO DE MOTOR AMPLIADA">
         <ThemedText>
-          For static images, you can use the <ThemedText type="defaultSemiBold">@2x</ThemedText> and{' '}
-          <ThemedText type="defaultSemiBold">@3x</ThemedText> suffixes to provide files for
-          different screen densities
+           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+          <ThemedText type="defaultSemiBold"> </ThemedText>MOTOR CUMMINS 6CC. PODENDO CUSTAR ATÉ R$45.000,00
         </ThemedText>
-        <Image source={require('@/assets/images/bielaforjada.jpeg')} style={{ alignSelf: 'center' }} />
-        <ExternalLink href="https://reactnative.dev/docs/images">
-          <ThemedText type="link">Learn more</ThemedText>
-        </ExternalLink>
+        <Image source={require('@/assets/images/motor3.jpg')} style={{ alignSelf: 'center' }} />
+
       </Collapsible>
-      <Collapsible title="Custom fonts">
+      <Collapsible title="MOTORES EXPLODINDO">
         <ThemedText>
-          Open <ThemedText type="defaultSemiBold">app/_layout.tsx</ThemedText> to see how to load{' '}
+          UM MOTOR PODE "EXPLODIR" POR CONTA DE TRABALHO EXCESSIVO <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
-            custom fonts such as this one.
+            
           </ThemedText>
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/versions/latest/sdk/font">
+        <ThemedText>
+          -DODGE RAM EXPLODINDO MOTOR {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
+        </ThemedText>
+        <ExternalLink href="https://www.youtube.com/watch?v=jpJb5wPcXV0">
           <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
       </Collapsible>
@@ -97,7 +95,7 @@ export default function TabTwoScreen() {
           what the user's current color scheme is, and so you can adjust UI colors accordingly.
         </ThemedText>
         <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">Learn more</ThemedText>
+          <ThemedText type="link">motor</ThemedText>
         </ExternalLink>
       </Collapsible>
       <Collapsible title="Animations">
@@ -138,4 +136,5 @@ const styles = StyleSheet.create({
     left: 0,
     position: 'absolute',
   },
+  
 });
