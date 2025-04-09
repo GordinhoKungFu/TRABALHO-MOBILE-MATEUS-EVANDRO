@@ -7,6 +7,9 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import TabBarBackground from '@/components/ui/TabBarBackground';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+import Ionicons from '@expo/vector-icons/Ionicons';
 
 export default function TabLayout() {
   const colorScheme = useColorScheme();
@@ -29,17 +32,27 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          title: 'MÓDULOS',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="car-wrench" size={24} color="black" />,
         }}
       />
+      
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'MOTORES',
+          tabBarIcon: ({ color }) => <MaterialCommunityIcons name="engine" size={24} color="black" />,
+        }}
+      />
+            <Tabs.Screen
+        name="explore2"
+        options={{
+          title: 'BRUSTO',
+          tabBarIcon: ({ color }) => <Ionicons name="car-sport-sharp" size={24} color="black" />,
         }}
       />
     </Tabs>
+    
+    
   );
 }

@@ -65,17 +65,17 @@ export default function TabTwoScreen() {
           <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
       </Collapsible>
-      <Collapsible title="FOTO DE MOTOR AMPLIADA">
+      <Collapsible title="FOTO DE MOTOR COMPLETO">
         <ThemedText>
            <ThemedText type="defaultSemiBold"></ThemedText>{' '}
-          <ThemedText type="defaultSemiBold"> </ThemedText>MOTOR CUMMINS 6CC. PODENDO CUSTAR ATÉ R$45.000,00
+          <ThemedText type="defaultSemiBold"> </ThemedText>
         </ThemedText>
         <Image source={require('@/assets/images/motor3.jpg')} style={{ alignSelf: 'center' }} />
-
+        https://www.youtube.com/watch?v=sE7FFNh93O0
       </Collapsible>
-      <Collapsible title="MOTORES EXPLODINDO">
+      <Collapsible title="MOTORES ">
         <ThemedText>
-          UM MOTOR PODE "EXPLODIR" POR CONTA DE TRABALHO EXCESSIVO <ThemedText type="defaultSemiBold"></ThemedText>{' '}
+           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText style={{ fontFamily: 'SpaceMono' }}>
             
           </ThemedText>
@@ -87,33 +87,15 @@ export default function TabTwoScreen() {
         <ExternalLink href="https://www.youtube.com/watch?v=jpJb5wPcXV0">
           <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
-      </Collapsible>
-      <Collapsible title="Light and dark mode components">
         <ThemedText>
-          This template has light and dark mode support. The{' '}
-          <ThemedText type="defaultSemiBold">useColorScheme()</ThemedText> hook lets you inspect
-          what the user's current color scheme is, and so you can adjust UI colors accordingly.
+          -MONTAGEM MOTOR DE CAMINHÃO {' '}
+          <ThemedText type="defaultSemiBold"></ThemedText>
         </ThemedText>
-        <ExternalLink href="https://docs.expo.dev/develop/user-interface/color-themes/">
-          <ThemedText type="link">motor</ThemedText>
+        <ExternalLink href="https://www.youtube.com/watch?v=sE7FFNh93O0">
+          <ThemedText type="link">Learn more</ThemedText>
         </ExternalLink>
       </Collapsible>
-      <Collapsible title="Animations">
-        <ThemedText>
-          This template includes an example of an animated component. The{' '}
-          <ThemedText type="defaultSemiBold">components/HelloWave.tsx</ThemedText> component uses
-          the powerful <ThemedText type="defaultSemiBold">react-native-reanimated</ThemedText>{' '}
-          library to create a waving hand animation.
-        </ThemedText>
-        {Platform.select({
-          ios: (
-            <ThemedText>
-              The <ThemedText type="defaultSemiBold">components/ParallaxScrollView.tsx</ThemedText>{' '}
-              component provides a parallax effect for the header image.
-            </ThemedText>
-          ),
-        })}
-      </Collapsible>
+
     </ParallaxScrollView>
   );
 }
