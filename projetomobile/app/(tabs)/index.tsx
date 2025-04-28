@@ -26,17 +26,17 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">
             {Platform.select({
               ios: 'cmd + d',
-              android: 'cmd + m', 
+              android: 'cmd + m',
               web: ''
             })}
           </ThemedText>{' '}
-        
+
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">TCM (Transmission Control Module)</ThemedText>
         <ThemedText>
-        - Gerencia o câmbio automático ou automatizado.
+          - Gerencia o câmbio automático ou automatizado.
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
@@ -47,12 +47,12 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">.</ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>{' '}
           <ThemedText type="defaultSemiBold"></ThemedText>
-          
-          
+
+
         </ThemedText>
         <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">ABS (Anti-lock Braking System Module)</ThemedText>
-        <ThemedText type="defaultSemiBold">– Gerencia o sistema de freios antitravamento.</ThemedText>{' '}
+          <ThemedText type="subtitle">ABS (Anti-lock Braking System Module)</ThemedText>
+          <ThemedText type="defaultSemiBold">– Gerencia o sistema de freios antitravamento.</ThemedText>{' '}
         </ThemedView>
       </ThemedView>
     </ParallaxScrollView>

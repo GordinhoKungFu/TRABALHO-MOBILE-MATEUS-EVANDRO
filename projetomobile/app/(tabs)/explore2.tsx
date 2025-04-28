@@ -53,7 +53,7 @@ export default function TabTwoScreen() {
         <ThemedText type="title">MARCAS DE CARROS</ThemedText>
       </ThemedView>
       <ThemedText>EXISTEM DIVERSAS MARCAS DE CARROS, AQUI ESTÁ ALGUMAS DELAS</ThemedText>
-      
+
       {carBrands.map((brand) => (
         <Collapsible key={brand.Make_ID} title={brand.Make_Name}> {/* Supondo que cada marca tenha um Make_ID e Make_Name */}
           <ThemedText>{brand.Make_Name} é uma marca de carro.</ThemedText> {/* Exibe o nome da marca */}
